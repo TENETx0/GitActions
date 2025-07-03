@@ -1,7 +1,9 @@
 name: Super-Linter
 
 on: push
-  
+
+permissions: # Explicit permissions (recommended by Checkov)
+  contents: read
 
 jobs:
   super-lint:
